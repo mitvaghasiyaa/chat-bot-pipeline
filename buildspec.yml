@@ -4,7 +4,8 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
-
+      - rm -rf target  # Clean the target directory
+      - mvn clean install -U
   post_build:
     commands:
       - echo Build completed successfully
@@ -13,3 +14,6 @@ artifacts:
   files:
     - target/chat-bot.jar
   discard-paths: yes
+
+
+

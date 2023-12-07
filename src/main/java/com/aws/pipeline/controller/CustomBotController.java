@@ -2,8 +2,6 @@ package com.aws.pipeline.controller;
 
 import com.aws.pipeline.dto.ChatGPTRequest;
 import com.aws.pipeline.dto.ChatGptResponse;
-import com.javatechie.dto.ChatGPTRequest;
-import com.javatechie.dto.ChatGptResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;

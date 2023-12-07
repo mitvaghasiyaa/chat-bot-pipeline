@@ -57,6 +57,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>chat-bot</finalName>
 	</build>
 
 </project>

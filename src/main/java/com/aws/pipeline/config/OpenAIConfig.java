@@ -39,7 +39,7 @@ public class OpenAIConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/bot/**")
-                .allowedOrigins("http://localhost:8080")  // Allow all origins for testing
+                .allowedOrigins("http://localhost:5000")
                 .allowedMethods("GET", "POST");
         System.out.println("CORS configuration loaded.");
     }
